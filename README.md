@@ -48,3 +48,4 @@ You can preview selected dashboards directly in the portfolio or via the GitHub 
 - 💼 LinkedIn: [linkedin.com/in/ahmad-yasser-faiq-data-analyst](https://www.linkedin.com/in/ahmad-yasser-faiq-data-analyst/)  
 - 🖥️ GitHub: [github.com/ahmadyase1234](https://github.com/ahmadyase1234)  
 - 📱 Phone: 01094104923 / 01555313788
+- 👉 **Live Portfolio**: [Click Here to View Online](https://ahmadyase1234.github.io/)
