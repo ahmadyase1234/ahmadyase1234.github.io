@@ -1,6 +1,6 @@
 # 📄 Ahmad Yaser - Data Analyst Portfolio
 ### 👤 Personal Profile  
-![Profile](WhatsApp%20Image%202025-06-29%20at%2020
+![Profile](WhatsApp%20Image%202025-06-29%20at%2020.10.22_d01877d9.jpg)
 
 Welcome to my **Data Analyst Portfolio**, where I showcase interactive dashboards and analytical projects created using **Excel**, **Power BI**, **SQL**, and **Python**.  
 My background in accounting combined with strong analytical skills allows me to extract insights from raw data and visualize it effectively for decision-making.
