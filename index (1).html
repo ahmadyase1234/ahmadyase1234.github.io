@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,118 +9,162 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background: #f4f4f4;
-            margin: 0;
-            padding: 0;
-            color: #333;
-        }
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
 
-        .container {
-            max-width: 900px;
-            margin: 40px auto;
-            background: #fff;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
 
-        .profile-img {
-            width: 180px;
-            border-radius: 10px;
-            margin-bottom: 20px;
-        }
+    nav {
+      text-align: center;
+      margin-bottom: 20px;
+    }
 
-        h1 {
-            color: #0e4d92;
-        }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #0e4d92;
+      font-weight: bold;
+    }
 
-        .projects a {
-            display: block;
-            margin: 10px 0;
-            color: #0e4d92;
-            text-decoration: none;
-            font-weight: bold;
-        }
+    nav a:hover {
+      text-decoration: underline;
+    }
 
-        .projects a:hover {
-            text-decoration: underline;
-        }
+    .profile-img {
+      width: 200px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
 
-        .dashboard-img {
-            margin-top: 20px;
-            max-width: 100%;
-            border-radius: 10px;
-            box-shadow: 0 0 12px rgba(0, 0, 0, 0.15);
-        }
+    h1 {
+      color: #0e4d92;
+    }
 
-        .insights {
-            text-align: left;
-            margin-top: 15px;
-            line-height: 1.6;
-        }
+    .projects a {
+      display: block;
+      margin: 5px 0;
+      color: #0e4d92;
+      text-decoration: none;
+      font-weight: bold;
+    }
 
-        .insights h4 {
-            color: #0e4d92;
-            margin-bottom: 5px;
-        }
+    .projects a:hover {
+      text-decoration: underline;
+    }
 
-        .buttons {
-            margin-top: 15px;
-            display: flex;
-            gap: 10px;
-            justify-content: center;
-            flex-wrap: wrap;
-        }
+    .dashboard-img {
+      margin-top: 20px;
+      max-width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 0 12px rgba(0, 0, 0, 0.15);
+      transition: transform 0.3s ease;
+    }
 
-        .buttons a {
-            padding: 10px 20px;
-            background-color: #0e4d92;
-            color: white;
-            text-decoration: none;
-            border-radius: 6px;
-            font-weight: bold;
-            transition: background 0.3s ease;
-        }
+    .dashboard-img:hover {
+      transform: scale(1.02);
+    }
 
-        .buttons a:hover {
-            background-color: #09386b;
-        }
+    .insights {
+      text-align: left;
+      margin-top: 15px;
+      line-height: 1.6;
+    }
 
-        .contact {
-            font-size: 16px;
-            line-height: 2;
-            text-align: center;
-            margin-top: 60px;
-        }
+    .insights h4 {
+      color: #0e4d92;
+      margin-bottom: 5px;
+    }
 
-        .contact a {
-            color: #0e4d92;
-            text-decoration: none;
-        }
+    .buttons {
+      margin-top: 15px;
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
 
-        .contact a:hover {
-            text-decoration: underline;
-        }
-    </style>
+    .buttons a {
+      padding: 10px 20px;
+      background-color: #0e4d92;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+
+    .buttons a:hover {
+      background-color: #09386b;
+    }
+
+    .contact {
+      font-size: 16px;
+      line-height: 2;
+      text-align: center;
+      margin-top: 60px;
+    }
+
+    .contact a {
+      color: #0e4d92;
+      text-decoration: none;
+    }
+
+    .contact a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 600px) {
+      .profile-img {
+        width: 120px;
+      }
+
+      .container {
+        padding: 15px;
+      }
+
+      h1, h2, h3 {
+        font-size: 1.4em;
+      }
+
+      .buttons a {
+        font-size: 14px;
+        padding: 8px 12px;
+      }
+    }
+  </style>
 </head>
 
 <body>
     <div class="container" align="center">
-        <img class="profile-img" src="https://raw.githubusercontent.com/ahmadyase1234/ahmad-yaser-assets/main/profile.jpg" alt="Ahmad Yaser" />
+        <img class="profile-img" src="WhatsApp Image 2025-06-29 at 20.10.22_d01877d9.jpg" alt="Ahmad Yaser" />
         <h1>Ahmad Yaser</h1>
 
         <h2>About Me</h2>
-        <p style="line-height: 1.8; text-align: left;">
-            I'm a <strong>Data Analyst</strong> with a background in accounting, and a passion for transforming raw data into valuable insights.
-            I transitioned into data analysis by mastering tools like <strong>Excel</strong>, <strong>Power BI</strong>, and currently studying <strong>Python</strong> and <strong>SQL</strong> to enhance my capabilities further.<br><br>
-            My focus is on building meaningful dashboards, analyzing real-world data, and delivering clear, actionable insights.
+        <p style="line-height: 1.5; text-align: left;">
+            I'm a <strong>Data Analyst</strong> with a background in accounting, and a passion for transforming raw data
+            into valuable insights.
+            I transitioned into data analysis by mastering tools like <strong>Excel</strong>, <strong>Power BI</strong>,
+            and currently studying <strong>Python</strong> and <strong>SQL</strong> to enhance my capabilities
+            further.<br>
+            My focus is on building meaningful dashboards, analyzing real-world data, and delivering clear, actionable
+            insights.
         </p>
 
         <h2 style="margin-top: 40px;">Projects</h2>
         <div class="projects" align="left">
             <a href="https://github.com/ahmadyase1234/Water-analysis-Dashboard-">💧 Water Analysis Dashboard</a>
-            <a href="https://github.com/ahmadyase1234/Adidas-Sales-Dashboard">📊 Adidas Sales Dashboard</a>
+            <a href="https://github.com/ahmadyase1234/Addidas-Sales-Dashboard">📊 Adidas Sales Dashboard</a>
             <a href="https://github.com/ahmadyase1234/Adidas-quantity-analysis-">📦 Adidas Quantity Analysis</a>
             <a href="https://github.com/ahmadyase1234/nutrition-analysis">🥗 Nutrition Analysis</a>
             <a href="https://github.com/ahmadyase1234/oral-cancer-analysis">🧬 Oral Cancer Analysis</a>
@@ -130,7 +173,7 @@
         </div>
 
         <h3 style="margin-top: 40px;">📊 Adidas Sales Dashboard</h3>
-        <img class="dashboard-img" src="https://raw.githubusercontent.com/ahmadyase1234/Adidas-Sales-Dashboard/main/adidas-sales-dashboard.png" alt="Adidas Sales Dashboard Image" />
+        <img class="dashboard-img" src="adidas-sales-dashboard.png" alt="Adidas Sales Dashboard Image" />
         <div class="insights">
             <h4>Insights:</h4>
             <ul>
@@ -145,39 +188,270 @@
             </ul>
         </div>
         <div class="buttons">
-            <a href="https://github.com/ahmadyase1234/Adidas-Sales-Dashboard" target="_blank"><i class="fas fa-external-link-alt"></i> View Report</a>
+            <a href="https://github.com/ahmadyase1234/Addidas-Sales-Dashboard" target="_blank"><i
+                    class="fas fa-external-link-alt"></i> View Report</a>
         </div>
 
-        <h3 style="margin-top: 40px;">🧬 Oral Cancer Analysis Dashboard</h3>
-        <img class="dashboard-img" src="https://raw.githubusercontent.com/ahmadyase1234/oral-cancer-analysis/main/oral-cancer-dashboard.png" alt="Oral Cancer Analysis Dashboard" />
+        <h3 style="margin-top: 40px;">🧬 Oral Cancer Analysis</h3>
+        <img class="dashboard-img" src="oral-cancer-dashboard.png" alt="oral-cancer-dashboard " />
         <div class="insights">
             <h4>Insights:</h4>
             <ul>
-                <li>Total number of patients: 85,000.</li>
-                <li>Average patient age: 54.51 years.</li>
-                <li>Highest treatment cost recorded: 159,990.</li>
-                <li>Data collected from 17 different countries.</li>
-                <li>The majority of patients (51,016) received no treatment.</li>
-                <li>Most common treatment types after “No Treatment” include Chemotherapy, Surgery, Targeted Therapy, and Radiation — with nearly equal patient counts (~8.5K each).</li>
-                <li>The age group 50–60 has the highest number of patients (33K), followed by 40–50 and 60–70.</li>
-                <li>Male patients represent 71.07%, while females account for 28.93%.</li>
-                <li>5-year survival rate varies by cancer stage — the higher the stage, the lower the survival rate.</li>
+                <li>Patient Demographics:<br>
+                    - 85,000 patients were analyzed, with an average age of 54.51 years.<br>
+                    - Gender distribution: 71.07% male, 28.93% female, indicating a higher prevalence among males.
+                </li>
+
+                <li>Tottreatment Types:<br>
+                    - Majority of patients (51,016) received no treatment, followed by chemotherapy (8,529), surgery
+                    (8,600).<br>
+                    - This highlights gaps in healthcare access or early diagnosisal Operating Profit: 332,134,761</li>
+                <li>Survival Rates:<br>
+                    - Survival rates vary by cancer stage (data not fully clear), but early-stage detection likely
+                    improves outcomes.<br>
+                    - Highest treatment cost: $159,990, reflecting the financial burden of advanced treatments.<br>
+                </li>
+                <li>Geographic Distribution:<br>
+                    - Data spans 17 countries, with potential disparities in healthcare infrastructure affecting
+                    treatment availability.
+                </li>
             </ul>
         </div>
         <div class="buttons">
-            <a href="https://github.com/ahmadyase1234/oral-cancer-analysis" target="_blank">
-                <i class="fas fa-external-link-alt"></i> View Report
-            </a>
+            <a href="https://github.com/ahmadyase1234/oral-cancer-analysis" target="_blank"><i
+                    class="fas fa-external-link-alt"></i> View Report</a>
         </div>
+        <h3 style="margin-top: 40px;">🩺 Cancer Dashboard</h3>
+        <img class="dashboard-img" src="cancer-dashboard.png" alt="cancer-dashboard" />
+        <div class="insights">
+            <h4>Insights:</h4>
+            <ul>
+                <li>Patient Data:<br>
+                    - 167,000 patients analyzed, with an average age of 69.2 years.<br>
+                    - 59.93% survival rate, indicating moderate success in treatment outcomes.
+                </li>
+                <li>Demographic Trends:<br>
+                    - Gender distribution: 58.81% male, 41.37% female (approximate).<br>
+                    - Age groups: Significant representation in 42.57% of a specific age bracket (likely elderly).
+                </li>
+                <li>Geographic and Economic Factors:<br>
+                    - Data covers multiple countries, with potential correlations between economic classification and
+                    healthcare costs.<br>
+                    - Survival rates may vary by cancer stage, emphasizing the need for early detection programs.
+                </li>
+                <li>Data Gaps:<br>
+                    - Some metrics lack context, suggesting incomplete visualization or
+                    unclear labeling.
+
+                </li>
+            </ul>
+        </div>
+        <div class="buttons">
+            <a href="https://github.com/ahmadyase1234/Cancer-analysis-dashboard-" target="_blank"><i
+                    class="fas fa-external-link-alt"></i> View Report</a>
+        </div>
+
+        <h3 style="margin-top: 40px;">🌍Global Environmental Trends Analysis</h3>
+        <img class="dashboard-img" src="global environmental  trends analysis.PNG" alt="" />
+        <div class="insights">
+            <h4>Insights:</h4>
+            <ul>
+                <li>Temperature Trends:<br>
+                    - The average global temperature is approximately 19.88°C, with fluctuations observed over the years
+                    (e.g., peaks at 22.52°C and lows at 17.57°C).<br>
+                    - Recent years show variability, indicating potential climate instability.
+                </li>
+                <li>CO2 Emissions:<br>
+                    - The average CO2 emission level is 10.43 (units not specified).<br>
+                    - Major contributors include China, the USA, India, and Russia, highlighting the need for targeted
+                    emission reduction policies.
+
+                <li>Sea Level Rise:<br>
+                    - The average sea level rise is 3.01 (units not specified), likely linked to melting ice caps and
+                    thermal expansion due to global warming.
+                </li>
+
+                <li> Energy Adoption:<br>
+                    - The average renewable energy adoption rate is 27.30%, with countries like Germany (28.74%) and
+                    France
+                    (28.71%) leading.<br>
+                    - Emerging economies (e.g., India, Indonesia) lag, suggesting opportunities for growth in green
+                    energy
+                    investments.
+                </li>
+
+                <li>Extreme Weather Events:<br>
+                    - A total of 7,291 extreme weather events were recorded, with hotspots potentially in regions like
+                    the
+                    USA (569 events) and others (354 events).<br>
+                    - This underscores the increasing frequency of climate-related disasters.
+                </li>
+
+            </ul>
+        </div>
+        <div class="buttons">
+            <a href="https://github.com/ahmadyase1234/global-environmental-trends" target="_blank"><i
+                    class="fas fa-external-link-alt"></i> View Report</a>
+        </div>
+        <h3 style="margin-top: 40px;">🥗 Nutrition Analysis Dashboard</h3>
+        <img class="dashboard-img" src="nutrition  analysis.PNG" alt="" />
+        <div class="insights">
+            <h4>Insights:</h4>
+            <ul>
+                <li>Overall Nutritional Values:<br>
+
+                    -A total of 243K calories were consumed across all food items.<br>
+
+                    -Macronutrients include 11K grams of protein, 21K grams of carbohydrates, and 12K grams of fats.<br>
+
+                    -There are 6418 grams of sugar, which is relatively high compared to 1672 grams of fiber, indicating
+                    a
+                    possible imbalance in dietary fiber intake.<br>
+                </li>
+
+
+
+                <li>Top Caloric Foods:<br>
+
+                    -Items such as Pad Thai, Panna Cotta, Pulled Pork, and Spaghetti are the top contributors to total
+                    calories .
+                </li>
+
+
+
+
+                <li>Calorie Composition by Food Type:<br>
+
+                    -Some dishes like Baby Back Ribs and Prime Rib have a high percentage of calories coming from
+                    fat.<br>
+
+                    -Items such as Fish and Chips and Chocolate Cake show a heavy carbohydrate contribution.
+                </li>
+
+
+
+                <li>Calories by Weight Trend:<br>
+
+                    -There's a peak in calories between 200g–300g weight range, especially around 250g (43.1K calories),
+                    indicating this is a common serving weight for high-calorie meals.<br>
+
+                    -After that, the calorie count decreases with heavier foods, suggesting that lighter meals may be
+                    more
+                    calorie-dense.<br>
+                </li>
+
+
+
+
+            </ul>
+        </div>
+        <div class="buttons">
+            <a href="https://github.com/ahmadyase1234/nutrition-analysis" target="_blank"><i
+                    class="fas fa-external-link-alt"></i> View Report</a>
+        </div>
+        <h3 style="margin-top: 40px;">💧 Global Water Consumption Analysis Dashboard </h3>
+        <img class="dashboard-img" src="Water-Dashboard.png" alt="" />
+        <div class="insights">
+            <h4>Insights:</h4>
+            <ul>
+                <li> Global Water Consumption:<br>
+
+                    -The total global water consumption is 2.52M cubic meters, with an average per capita use of 276.03
+                    m³.<br>
+
+                    -Agricultural use dominates, making up 86.04% of all water usage, followed by household and
+                    industrial
+                    use.
+                </li>
+
+
+
+                <li>Geographical Distribution:<br>
+
+                    -High water consumption is concentrated in regions with large populations and agriculture-heavy
+                    economies, such as parts of Asia and North America.<br>
+
+                    -Regions like Africa show lower consumption but may have higher scarcity.
+                </li>
+
+
+
+                <li>Water Scarcity Overview:<br>
+
+                    -Countries like India, China, and Pakistan rank highest in water scarcity levels, indicating
+                    critical
+                    pressure on water resources.<br>
+
+                    -Water stress is tightly linked to population growth and agricultural demands.
+                </li>
+
+
+
+                <li>Yearly Trends:<br>
+
+                    -Water consumption fluctuates over the years, peaking around 2012–2014 with values exceeding 120K,
+                    possibly due to economic or climatic changes.<br>
+
+                    -A slight decline post-2016 could point to conservation efforts or industrial slowdowns.
+                </li>
+            </ul>
+        </div>
+        <div class="buttons">
+            <a href="https://github.com/ahmadyase1234/Water-analysis-Dashboard-" target="_blank"><i
+                    class="fas fa-external-link-alt"></i> View Report</a>
+        </div>
+        <h3 style="margin-top: 40px;">📦 Adidas Quantity Analysis</h3>
+        <img class="dashboard-img" src="adidas-quantity-dashboard.png" alt="" />
+        <div class="insights">
+            <h4>Insights:</h4>
+            <ul>
+                <li>The West region and major urban areas like New York City and Houston are driving success.
+                </li>
+                <li>Retailers like Foot Locker and Walmart are crucial to volume</li>
+                <li>There are clear geographic and retail gaps where performance can be improved.</li>
+        </div>
+        <div class="buttons">
+            <a href="https://github.com/ahmadyase1234/Adidas-quantity-analysis-" target="_blank"><i
+                    class="fas fa-external-link-alt"></i> View Report</a>
+        </div>
+
+
+
+
+
 
         <h2 style="margin-top: 60px;">📬 Contact Me</h2>
         <div class="contact">
-            <p><i class="fas fa-envelope"></i> Email: <a href="mailto:ahmadyaser17199813@gmail.com">ahmadyaser17199813@gmail.com</a></p>
-            <p><i class="fab fa-linkedin"></i> LinkedIn: <a href="https://www.linkedin.com/in/ahmad-yasser-faiq-data-analyst/" target="_blank">linkedin.com/in/ahmad-yasser-faiq-data-analyst</a></p>
-            <p><i class="fab fa-github"></i> GitHub: <a href="https://github.com/ahmadyase1234" target="_blank">github.com/ahmadyase1234</a></p>
+            <p><i class="fas fa-envelope"></i> Email: <a
+                    href="mailto:ahmadyaser17199813@gmail.com">ahmadyaser17199813@gmail.com</a></p>
+            <p><i class="fab fa-linkedin"></i> LinkedIn: <a
+                    href="https://www.linkedin.com/in/ahmad-yasser-faiq-data-analyst/"
+                    target="_blank">linkedin.com/in/ahmad-yasser-faiq-data-analyst</a></p>
+            <p><i class="fab fa-github"></i> GitHub: <a href="https://github.com/ahmadyase1234"
+                    target="_blank">github.com/ahmadyase1234</a></p>
             <p><i class="fas fa-phone"></i> Phone: <a href="tel:+201272722251">01094104923 / 01555313788</a></p>
         </div>
     </div>
+    <script>
+    const projects = [
+      { title: "💧 Water Analysis Dashboard", url: "https://github.com/ahmadyase1234/Water-analysis-Dashboard-" },
+      { title: "📊 Adidas Sales Dashboard", url: "https://github.com/ahmadyase1234/Addidas-Sales-Dashboard" },
+      { title: "📦 Adidas Quantity Analysis", url: "https://github.com/ahmadyase1234/Adidas-quantity-analysis-" },
+      { title: "🥗 Nutrition Analysis", url: "https://github.com/ahmadyase1234/nutrition-analysis" },
+      { title: "🧬 Oral Cancer Analysis", url: "https://github.com/ahmadyase1234/oral-cancer-analysis" },
+      { title: "🩺 Cancer Dashboard", url: "https://github.com/ahmadyase1234/Cancer-analysis-dashboard-" },
+      { title: "🌍 Environmental Trends", url: "https://github.com/ahmadyase1234/global-environmental-trends" }
+    ];
+
+    const container = document.getElementById("projectLinks");
+    projects.forEach(p => {
+      const a = document.createElement("a");
+      a.href = p.url;
+      a.target = "_blank";
+      a.textContent = p.title;
+      container.appendChild(a);
+    });
+  </script>
 </body>
 
 </html>
