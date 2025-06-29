@@ -34,10 +34,25 @@ My background in accounting combined with strong analytical skills allows me to 
 
 You can preview selected dashboards directly in the portfolio or via the GitHub pages if hosted.
 
-![Adidas Sales Dashboard](adidas-sales-dashboard.png)
+### 📊 Adidas Sales Dashboard  
+![Adidas Sales](adidas-sales-dashboard.png)
 
-![Cancer Dashboard](cancer-dashboard.png)
+### 📦 Adidas Quantity Analysis  
+![Adidas Quantity](adidas-quantity-dashboard.png)
 
+### 🧬 Oral Cancer Analysis  
+![Oral Cancer](oral-cancer-dashboard.png)
+
+### 🩺 Cancer Dashboard  
+![Cancer](cancer-dashboard.png)
+
+### 🌍 Global Environmental Trends  
+![Environmental Trends](global%20environmental%20%20trends%20analysis.PNG)
+
+### 🥗 Nutrition Analysis  
+![Nutrition](nutrition%20%20analysis.PNG)
+
+### 💧 Water Dashboard  
 ![Water Dashboard](Water-Dashboard.png)
 
 ---
